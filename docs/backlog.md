@@ -1,21 +1,17 @@
-# Product Backlog - Lecture 3
-
-## User Stories with MoSCoW Priority
+# Product Backlog - CampusRide
 
 ### Must Have
-- **US-01**: As a user, I want to login so that I can access my dashboard
-    - Acceptance: Valid email + password logs user in
-- **US-02**: As a user, I want to view dashboard so that I can see key metrics
-    - Acceptance: Dashboard loads in <2s
+1. **US-01**: As a student, I want to book a ride with pickup/dropoff location so that I get to class on time
+   - Acceptance: Booking confirmed in <10s, driver assigned
+2. **US-02**: As a driver, I want to accept or reject a ride request so that I control my schedule
+   - Acceptance: Student gets notification of accept/reject
 
 ### Should Have
-- **US-03**: As a user, I want to export reports so that I can share data
-    - Acceptance: Export to PDF and CSV
+3. **US-03**: As a student, I want to see estimated fare before booking so that I can budget
+4. **US-04**: As admin, I want to generate daily ride reports so that I can pay drivers
 
 ### Could Have
-- **US-04**: As a user, I want dark mode so that I can reduce eye strain
-    - Acceptance: Toggle in settings
+5. **US-05**: As a student, I want to rate the driver after ride so that service quality improves
 
 ### Won't Have
-- **US-05**: As a user, I want AI chatbot so that I can get instant help
-    - Deferred to next release
+6. **US-06**: Live GPS tracking - Deferred to v2 due to data costs
