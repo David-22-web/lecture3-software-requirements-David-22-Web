@@ -1,28 +1,17 @@
+# CampusRide: Student Transport Booking System
+**Course**: Software Requirements Engineering - Lecture 3
+**Student**: David-22-Web
 
+## Overview
+CampusRide helps Fourah Bay College students book bikes/taxis for lectures, exams, and events. 
+It connects students with verified campus drivers and tracks rides + payments.
 
-# Lecture 3: Software Requirements Engineering
+## Core Features v1.0
+- Student: Book, cancel, and rate rides
+- Driver: Accept/reject rides and view earnings
+- Admin: Manage users and generate daily ride reports
+- MoSCoW prioritization used for release planning
 
-**Student**: David-22-Web  
-**Course**: Software Engineering
-
-## Project Contents
-This repository contains all requirements artifacts for Lecture 3:
-
-### Documentation
-- `docs/backlog.md` - Product Backlog with MoSCoW Prioritization
-- `docs/traceability-matrix.md` - Requirements to Test Cases mapping
-- `docs/non-functional-requirements.md` - NFRs: Performance, Security, Usability
-- `docs/definition-of-done.md` - Team DoD criteria
-- `docs/SRS.md` - Software Requirements Specification
-
-### Source Code
-Java implementation of MoSCoW prioritization:
-- `src/MoscowPriority.java` - Enum for priorities
-- `src/UserStory.java` - UserStory class
-- `src/BacklogPolicy.java` - Business logic for backlog
-- `src/Demo.java` - Demo with sample data
-
-## How to Run
-```bash
-javac src/*.java
-java -cp src Demo
+## Project Structure
+- `docs/` - SRS, Backlog, NFR, Traceability Matrix, Definition of Done
+- `src/` - Java implementation: UserStory, Priority, Policy, Demo
